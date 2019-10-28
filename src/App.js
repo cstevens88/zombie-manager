@@ -61,7 +61,7 @@ export default class App extends Component {
     return (
       <Container fluid>
           <Jumbotron style={{background:'black', color:'red'}}fluid><h1>zombie-manager</h1></Jumbotron>
-          <LocationCard locations={locations} quarantine={this.quarantine} move={this.move}></LocationCard>
+          <LocationCard locations={locations} quarantine={this.quarantine}></LocationCard>
           <MoveZombieForm move={this.move}></MoveZombieForm>
       </Container>
     )
