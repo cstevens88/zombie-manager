@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/zombie-manager/static/js/main.0d294cab.chunk.js",
-    "main.js.map": "/zombie-manager/static/js/main.0d294cab.chunk.js.map",
+    "main.js": "/zombie-manager/static/js/main.46663297.chunk.js",
+    "main.js.map": "/zombie-manager/static/js/main.46663297.chunk.js.map",
     "runtime-main.js": "/zombie-manager/static/js/runtime-main.94d1fc12.js",
     "runtime-main.js.map": "/zombie-manager/static/js/runtime-main.94d1fc12.js.map",
-    "static/js/2.30399203.chunk.js": "/zombie-manager/static/js/2.30399203.chunk.js",
-    "static/js/2.30399203.chunk.js.map": "/zombie-manager/static/js/2.30399203.chunk.js.map",
+    "static/js/2.283856bd.chunk.js": "/zombie-manager/static/js/2.283856bd.chunk.js",
+    "static/js/2.283856bd.chunk.js.map": "/zombie-manager/static/js/2.283856bd.chunk.js.map",
     "index.html": "/zombie-manager/index.html",
-    "precache-manifest.d4602117f456343d1e395d986a8c7008.js": "/zombie-manager/precache-manifest.d4602117f456343d1e395d986a8c7008.js",
+    "precache-manifest.074944b1ceab68cc2bc5e187b54607be.js": "/zombie-manager/precache-manifest.074944b1ceab68cc2bc5e187b54607be.js",
     "service-worker.js": "/zombie-manager/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.94d1fc12.js",
-    "static/js/2.30399203.chunk.js",
-    "static/js/main.0d294cab.chunk.js"
+    "static/js/2.283856bd.chunk.js",
+    "static/js/main.46663297.chunk.js"
   ]
 }
