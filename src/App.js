@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import LocationCard from './LocationCard';
@@ -58,11 +59,11 @@ export default class App extends Component {
   render() {
     const { locations } = this.state;
     return (
-      <div>
-        <Jumbotron style={{background:'black', color:'red'}}fluid><h1>zombie-manager</h1></Jumbotron>
-        <LocationCard locations={locations} quarantine={this.quarantine} move={this.move}></LocationCard>
-        <MoveZombieForm move={this.move}></MoveZombieForm>
-      </div>
+      <Container fluid>
+          <Jumbotron style={{background:'black', color:'red'}}fluid><h1>zombie-manager</h1></Jumbotron>
+          <LocationCard locations={locations} quarantine={this.quarantine} move={this.move}></LocationCard>
+          <MoveZombieForm move={this.move}></MoveZombieForm>
+      </Container>
     )
   }
 }
