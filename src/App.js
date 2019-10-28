@@ -33,7 +33,7 @@ export default class App extends Component {
       locations: locations
     })
   }
-//move(school, warehouse)
+
   move = (fromLocation, toLocation) => {
     const locations = [...this.state.locations];
     const fromLocationObject = (locations.find(location => location.name === fromLocation));
